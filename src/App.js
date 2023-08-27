@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { AppProvider } from './context/AppContext';
 import Budget from './components/Budget';
+import Currency from './components/currency';
 import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
@@ -17,6 +18,7 @@ const App = () => {
                     <div className='col-sm'>
                         <Budget />
                     </div>
+                    
                     <div className='col-sm'>
                         <RemainingBudget />
                     </div>
